@@ -258,7 +258,7 @@ case 'indosat-gift':
                     }
                 }
                 break;
-case 'indosat-combo':
+case 'indosat-combo1':
                 {
                     
                     if (konek.DF !== 'YA') {

@@ -41,7 +41,7 @@ case 'daftarmenu':
                     }
                 }
                 break;
-case 'Topup-Menu':
+case 'topup-menu':
                 {
                     if (konek.DF !== 'YA') {
                         m.reply(mess.maintenance);
@@ -80,6 +80,32 @@ case 'Topup-Menu':
    : ̗̀➛ Topup-Singapore TOPUP
    : ̗̀➛ Topup-Philippines-TOPUP
   •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'cek-saldo':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+│•━━━━━━━━━━━━━━━━━━•
+│ *Nama :* *${pushname !== undefined ? pushname : 'Kakak'
+                        }
+│ *Saldo  :* ${rp(cekSaldo(sender))}
+│ *Jam    :* ${waktu}
+│ *HP      :* ${ubahNoHp(sender)}
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ`;
 
                         await vbot.sendMessage(
                             from,

@@ -1,0 +1,43 @@
+case 'daftarmenu':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+│•━━━━━━━━━━━━━━━━━━•
+│ *Nama :* *${pushname !== undefined ? pushname : 'Kakak'
+                        }
+│ *Saldo  :* ${rp(cekSaldo(sender))}
+│ *Jam    :* ${waktu}
+│ *HP      :* ${ubahNoHp(sender)}
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *DAFTAR MENU*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Topup-Menu
+   : ̗̀➛ Beli
+   : ̗̀➛ Cek-Saldo
+   : ̗̀➛ Topup-Saldo
+   : ̗̀➛ Cara-Transaksi
+   : ̗̀➛ Cara-Topup
+   : ̗̀➛ Owner
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+           🛍️ *MENU ADMIN*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Kick
+   : ̗̀➛ Transfer-Saldo
+   : ̗̀➛ Tarik-Saldo
+   : ̗̀➛ Dashboard
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;

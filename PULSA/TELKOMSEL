@@ -52,7 +52,7 @@ case 'topup-game1':
 
                         const desk = judul + isi.join('') + caraPembelian;
 
-                        const desks = [desk, '*Cara Order*\'];
+                        const desks = [desk, '*Cara Order*\nhttps://t.me/tutor_botdf/2'];
                         const messages = desks.map((desk) => ({
                             text: desk,
                             mentions: [sender],

@@ -30,7 +30,7 @@ case 'topup-game1':
                             }));
                         const judul = `♥︎  ∩_._∩
  （˵• ֊ •˵)♥︎
-╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╭━∪━∪─☾ *RABBID-Bot* ☽ˊˎ-
 ╰━━━━━━━━━━━━━━━━━•ิ.•ิ
 🛍️ *TELKOMSEL REGULER*
   •━━━━━━━━━━━━━━━━━•ิ.•ิ
@@ -52,7 +52,7 @@ case 'topup-game1':
 
                         const desk = judul + isi.join('') + caraPembelian;
 
-                        const desks = [desk, 'Ketik : Beli Kode Tujuan'];
+                        const desks = [desk, '*Cara Order*\'];
                         const messages = desks.map((desk) => ({
                             text: desk,
                             mentions: [sender],

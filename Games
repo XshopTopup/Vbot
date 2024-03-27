@@ -1,4 +1,4 @@
-case 'mlbb1':
+case 'topup-game1':
                 {
                     
                     if (konek.DF !== 'YA') {

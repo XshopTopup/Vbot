@@ -1,4 +1,4 @@
-case 'tapcash-bni-umum':
+case 'tapcashbni-umum':
                 {
                     
                     if (konek.DF !== 'YA') {

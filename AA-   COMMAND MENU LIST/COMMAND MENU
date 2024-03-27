@@ -49,14 +49,8 @@ case 'topup-menu':
                         const desk = `♥︎  ∩_._∩
  （˵• ֊ •˵)♥︎
 ╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
-│•━━━━━━━━━━━━━━━━━━•
-│ *Nama :* *${pushname !== undefined ? pushname : 'Kakak'
-                        }
-│ *Saldo  :* ${rp(cekSaldo(sender))}
-│ *Jam    :* ${waktu}
-│ *HP      :* ${ubahNoHp(sender)}
 ╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
-         🛍️ *DAFTAR MENU*
+         🛍️ *MENU TOPUP*
   •━━━━━━━━━━━━━━━━━•ิ.•ิ
    : ̗̀➛ Topup-Pulsa
    : ̗̀➛ Topup-eSIM
@@ -106,6 +100,36 @@ case 'cek-saldo':
 │ *Jam    :* ${waktu}
 │ *HP      :* ${ubahNoHp(sender)}
 ╰━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-pulsa':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *MENU PULSA*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Topup-Axis
+   : ̗̀➛ Topup-Byu
+   : ̗̀➛ Topup-Indosat
+   : ̗̀➛ Topup-Smartfren
+   : ̗̀➛ Topup-Telkomsel
+   : ̗̀➛ Topup-Tri
+   : ̗̀➛ Topup-Xl
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
 
                         await vbot.sendMessage(
                             from,

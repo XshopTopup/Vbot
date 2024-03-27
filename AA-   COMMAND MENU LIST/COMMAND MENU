@@ -1,4 +1,4 @@
-case 'daftarmenu':
+case 'daftar-menu':
                 {
                     if (konek.DF !== 'YA') {
                         m.reply(mess.maintenance);
@@ -155,6 +155,162 @@ case 'topup-axis':
    : ̗̀➛ Axis-Reguler
    : ̗̀➛ Axis-Transfer
    : ̗̀➛ Axis-Mix
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-byu':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *MENU BY.U*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Byu-Reguler
+   : ̗̀➛ Byu-Transfer
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-indosat':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+       🛍️ *MENU INDOSAT*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Indosat-Reguler
+   : ̗̀➛ Indosat-Transfer
+   : ̗̀➛ Indosat-Mix
+   : ̗̀➛ Indosat-Gift
+   : ̗̀➛ Indosat-Combo1
+   : ̗̀➛ Indosat-Combo2
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-smartfren':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+    🛍️ *MENU SMARTFREN*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Smartfren-Reguler
+   : ̗̀➛ Smartf-Transfer
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                
+                break;
+case 'topup-telkomsel':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+     🛍️ *MENU TELKOMSEL*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Telkomsel-Reguler
+   : ̗̀➛ Telkomsel-Transfer
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-tri':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *MENU TRI*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Tri-Reguler
+   : ̗̀➛ Tri-Transfer
+   : ̗̀➛ Tri-Mix
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'topup-xl':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *MENU XL*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Xl-Reguler
+   : ̗̀➛ Xl-Transfer
+   : ̗̀➛ Xl-Mix
   •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
 
                         await vbot.sendMessage(

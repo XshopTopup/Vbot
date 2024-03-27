@@ -41,3 +41,53 @@ case 'daftarmenu':
                     }
                 }
                 break;
+case 'Topup-Menu':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+│•━━━━━━━━━━━━━━━━━━•
+│ *Nama :* *${pushname !== undefined ? pushname : 'Kakak'
+                        }
+│ *Saldo  :* ${rp(cekSaldo(sender))}
+│ *Jam    :* 
+│ *HP      :* ${ubahNoHp(sender)}
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ\n
+         🛍️ *DAFTAR MENU*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Topup-Pulsa
+   : ̗̀➛ Topup-eSIM
+   : ̗̀➛ Topup-Data
+   : ̗̀➛ Topup-Games
+   : ̗̀➛ Topup-Voucher
+   : ̗̀➛ Topup-E-Money
+   : ̗̀➛ Topup-PLN
+   : ̗̀➛ Topup-Paket-SMSTelpon
+   : ̗̀➛ Topup-Aktivasi-Voucher
+   : ̗̀➛ Topup-TV
+   : ̗̀➛ Topup-Masa-Aktif
+   : ̗̀➛ Topup-Aktivasi-Perdana
+   : ̗̀➛ Topup-Pertagas
+   : ̗̀➛ Topup-Streaming
+   : ̗̀➛ Topup-Bundling
+   : ̗̀➛ Topup-Malaysia-TOPUP
+   : ̗̀➛ Topup-China-TOPUP
+   : ̗̀➛ Topup-Vietnam-Topup
+   : ̗̀➛ Topup-Thailand-TOPUP
+   : ̗̀➛ Topup-Singapore TOPUP
+   : ̗̀➛ Topup-Philippines-TOPUP
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;

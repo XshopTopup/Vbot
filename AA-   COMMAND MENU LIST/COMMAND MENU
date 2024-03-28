@@ -485,12 +485,22 @@ case 'topup-games':
                     }
                 }
                 break;
-case 'game':
+case 'game41':
                 {
                     if (konek.DF !== 'YA') {
                         m.reply(mess.maintenance);
                     } else {
-                        const desk = `5`;
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ
+*🛍️ One Punch Man*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Game41-Umum
+   : ̗̀➛ Game41-GPC
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+Ketik Salah Satu Item Diatas
+Contoh : Game41-Umum`;
 
                         await vbot.sendMessage(
                             from,

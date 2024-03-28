@@ -485,6 +485,36 @@ Ketik : Panduan-Game
                     }
                 }
                 break;
+case 'panduan-game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ
+*📢 PANDUAN GAMES*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+Untuk cek pricelist game
+   : ̗̀➛ Ketik : *Game0*
+Untuk memunculkan pricelist *"Garena"*
+   : ̗̀➛ Ketik : *Game1*
+Untuk memunculkan pricelist *"MLBB"*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+Video Panduan
+Cek : https://t.me/tutor_botdf/3`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
 case 'game41':
                 {
                     if (konek.DF !== 'YA') {

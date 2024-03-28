@@ -1,4 +1,4 @@
-case 'mitra-shopee-umum':
+case 'topup-mitrashopee':
                 {
                     
                     if (konek.DF !== 'YA') {

@@ -1,4 +1,4 @@
-case 'doku-umum':
+case 'topup-doku':
                 {
                     
                     if (konek.DF !== 'YA') {

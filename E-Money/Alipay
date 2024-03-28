@@ -1,4 +1,4 @@
-case 'alipay-umum':
+case 'topup-alipay':
                 {
                     
                     if (konek.DF !== 'YA') {

@@ -1,4 +1,4 @@
-case 'mtix-umum':
+case 'topup-mtix':
                 {
                     
                     if (konek.DF !== 'YA') {

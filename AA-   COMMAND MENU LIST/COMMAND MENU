@@ -485,3 +485,275 @@ case 'topup-games':
                     }
                 }
                 break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
+case 'game':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `5`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;

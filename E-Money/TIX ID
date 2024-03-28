@@ -1,4 +1,4 @@
-case 'tikid-umum':
+case 'topup-tikid':
                 {
                     
                     if (konek.DF !== 'YA') {

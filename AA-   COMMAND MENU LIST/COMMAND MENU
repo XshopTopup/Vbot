@@ -323,6 +323,33 @@ case 'topup-xl':
                     }
                 }
                 break;
+case 'topup-data':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ
+*🛍️ TOPUP DATA*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+: ̗̀➛ Telkomsel-Umum\n: ̗̀➛ Telkomsel-Bulk\n: ̗̀➛ Telkomsel-Flash\n: ̗̀➛ Telkomsel-Mini\n: ̗̀➛ Telkomsel-Vaganza\n: ̗̀➛ Telkomsel-Maxstream\n: ̗̀➛ Telkomsel-Umroh\n: ̗̀➛ Telkomsel-Malam\n: ̗̀➛ Telkomsel-ComboSakti\n: ̗̀➛Telkomsel-GamesMAXUnlimitedPlay\n: ̗̀➛ Telkomsel-Whatsapp\n: ̗̀➛ Telkomsel-Youtube\n: ̗̀➛ Telkomsel-Instagram\n: ̗̀➛ Telkomsel-Facebook\n: ̗̀➛ Telkomsel-KetenganTikTok\n: ̗̀➛ Telkomsel-GamesMAX\n: ̗̀➛ Telkomsel-MusicMAX\n: ̗̀➛ Telkomsel-Disney+Hotstar\n: ̗̀➛ Telkomsel-OMG\n: ̗̀➛ Telkomsel-GigaMAX\n: ̗̀➛ Telkomsel-UnlimitedMAX\n: ̗̀➛ Telkomsel-IlmupediaOrbit\n: ̗̀➛ Telkomsel-InternetMAX\n: ̗̀➛ Telkomsel-SurpriseDeal\n: ̗̀➛ Telkomsel-
+UKM\n: ̗̀➛ Telkomsel-UKMCombo\n: ̗̀➛ Telkomsel-SumateraUtaraZona1\n: ̗̀➛ Telkomsel-SumateraUtaraZona3\n: ̗̀➛ Telkomsel-SumateraTengahZona1\n: ̗̀➛ Telkomsel-SumateraTengahZona2\n: ̗̀➛ Telkomsel-SumateraSelatanZona1\n: ̗̀➛ Telkomsel-Bronze\n: ̗̀➛ Telkomsel-Jabodetabek\n: ̗̀➛ Telkomsel-Jawa Barat\n: ̗̀➛ Telkomsel-Jawa Tengah-DIY\n: ̗̀➛ Telkomsel-Jawa Timur\n: ̗̀➛ Telkomsel-KalimantanZona1\n: ̗̀➛ Telkomsel-KalimantanZona2\n: ̗̀➛ Telkomsel-SulawesiZona1\n: ̗̀➛ Telkomsel-SulawesiZona3\n: ̗̀➛ Telkomsel-Papua-Maluku\n: ̗̀➛ Telkomsel-SerumaxZonaA\n: ̗̀➛ Telkomsel-Harian\n: ̗̀➛ Telkomsel-Mingguan\n: ̗̀➛ Telkomsel-Bulanan\n: ̗̀➛ Telkomsel-KetenganUtama\n: ̗̀➛ Telkomsel-HarianSepuasnya\n: ̗̀➛ Telkomsel-Zoom\n: ̗̀➛ Telkomsel-Roamax\n: ̗̀➛ Telkomsel-GamesMAXBooster\n: ̗̀➛ Telkomsel-Banten\n: ̗̀➛ Telkomsel-Naslok\n: ̗̀➛ Telkomsel-SukabumiBogorBanten\n: ̗̀➛ Telkomsel-SuperSeru\n: ̗̀➛ Telkomsel-CekPaket\n: ̗̀➛ Telkomsel-FIFAWorldCupSmall\n: ̗̀➛ Telkomsel-InternetSakti\n: ̗̀➛ Telkomsel-RoaMAXHaji\n: ̗̀➛ Telkomsel-Netflix\n: ̗̀➛ Telkomsel-Eksklusif\n: ̗̀➛ Telkomsel-FlashRevamp
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+Ketik Salah Satu Item Diatas
+Contoh : Telkomsel-Umum`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
 case 'topup-games':
                 {
                     if (konek.DF !== 'YA') {

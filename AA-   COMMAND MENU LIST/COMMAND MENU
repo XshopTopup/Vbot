@@ -380,6 +380,32 @@ Contoh : Telkomsel-Umum`;
                     }
                 }
                 break;
+case 'data-indosat':
+                {
+                    if (konek.DF !== 'YA') {
+                        m.reply(mess.maintenance);
+                    } else {
+                        const desk = `♥︎  ∩_._∩
+ （˵• ֊ •˵)♥︎
+╭━∪━∪─☾ *${catatanWaktu}* ☽ˊˎ-
+╰━━━━━━━━━━━━━━━━━•ิ.•ิ
+*🛍️ TOPUP DATA INDOSAT*
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+   : ̗̀➛ Indosat-Umum   : ̗̀➛ \nIndosat-GiftData   : ̗̀➛ \nIndosat-Yellow   : ̗̀➛ \nIndosat-FreedomCombo   : ̗̀➛ \nIndosat-FreedomInternetPlus   : ̗̀➛ \nIndosat-FreedomHarian   : ̗̀➛ \nIndosat-Mini   : ̗̀➛ \nIndosat-FreedomInternet   : ̗̀➛ \nIndosat-Haji   : ̗̀➛ \nIndosat-Ekstra   : ̗̀➛ \nIndosat-Roaming   : ̗̀➛ \nIndosat-FreedomU   : ̗̀➛ \nIndosat-FreedomApps   : ̗̀➛ \nIndosat-FreedomLonglife   : ̗̀➛ \nIndosat-YellowGift   : ̗̀➛ \nIndosat-Jabodetabek   : ̗̀➛ \nIndosat-JawaBarat   : ̗̀➛ \nIndosat-JawaTengah-DIY   : ̗̀➛ \nIndosat-KalimantanZona1   : ̗̀➛ \nIndosat-KalimantanZona2   : ̗̀➛ \nIndosat-JawaTengah-JawaBarat   : ̗̀➛ \nIndosat-Kalisumapa   : ̗̀➛ \nIndosat-Sumatera   : ̗̀➛ \nIndosat-EJBN   : ̗̀➛ \nIndosat-FreedomUGift   : ̗̀➛ \nIndosat-FreedomComboGift   : ̗̀➛ \nIndosat-FreedomInternetGift   : ̗̀➛ \nIndosat-JabodetabekZona1   : ̗̀➛ \nIndosat-JabodetabekZona2   : ̗̀➛ \nIndosat-Jateng-DIYZona1   : ̗̀➛ \nIndosat-Jateng-DIYZona2   : ̗̀➛ \nIndosat-JabarZona1   : ̗̀➛ \nIndosat-JabarZona2   : ̗̀➛ \nIndosat-SumbagutZona1   : ̗̀➛ \nIndosat-SumbagutZona2   : ̗̀➛ \nIndosat-SumbagselZona1   : ̗̀➛ \nIndosat-SumbagselZona2   : ̗̀➛ \nIndosat-JatimZona1   : ̗̀➛ \nIndosat-JatimZona2   : ̗̀➛ \nIndosat-BalnusZona1   : ̗̀➛ \nIndosat-BalnusZona2   : ̗̀➛ \nIndosat-SumapaZona1   : ̗̀➛ \nIndosat-SumapaZona2   : ̗̀➛ \nIndosat-SumateraZona1   : ̗̀➛ \nIndosat-SumateraZona2   : ̗̀➛ \nIndosat-UmrohHajiCombo   : ̗̀➛ \nIndosat-UmrohHajiInternet   : ̗̀➛ \nIndosat-FIFAWorldCup   : ̗̀➛ \nIndosat-FreedomMax   : ̗̀➛ \nIndosat-Kalimantan   : ̗̀➛ \nIndosat-UMKM   : ̗̀➛ \nIndosat-KalisumapaZona1   : ̗̀➛ \nIndosat-ExtraBoosterGift   : ̗̀➛ \nIndosat-Sumapa   : ̗̀➛ \nIndosat-gaspol   : ̗̀➛ \nIndosat-Sachet   : ̗̀➛ \nIndosat-Zona 2   : ̗̀➛ \nIndosat-Community   : ̗̀➛ \nIndosat-CWJZona1   : ̗̀➛ \nIndosat-CWJZona2   : ̗̀➛ \nIndosat-PureMerdeka
+  •━━━━━━━━━━━━━━━━━•ิ.•ิ
+Ketik Salah Satu Item Diatas
+Contoh : Indosat-Umum`;
+
+                        await vbot.sendMessage(
+                            from,
+                            {
+                                text: desk,
+                            },
+                            { quoted: m }
+                        );
+                    }
+                }
+                break;
 case 'topup-games':
                 {
                     if (konek.DF !== 'YA') {

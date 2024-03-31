@@ -2603,7 +2603,7 @@ case 'telkomsel-sulawesizona3':
                     }
                 }
                 break;       
-case 'telkomsel-Papua - Maluku':
+case 'telkomsel-papua-maluku':
                 {
                     
                     if (konek.DF !== 'YA') {
